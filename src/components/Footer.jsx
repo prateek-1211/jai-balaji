@@ -8,16 +8,16 @@ const Footer = () => {
             </p>
           </div>
           <div className="space-x-5">
-            <a href="/about" className="hover:underline">
+            <a href="/#about" className="hover:underline">
               About
             </a>
-            <a href="/expertise" className="hover:underline">
+            <a href="/#expertise" className="hover:underline">
               Privacy Policy
             </a>
-            <a href="/about" className="hover:underline">
+            <a href="/#about" className="hover:underline">
               Licensing{" "}
             </a>
-            <a href="/about" className="hover:underline">
+            <a href="/#banner" className="hover:underline">
               Contact
             </a>
           </div>

@@ -1,49 +1,61 @@
+import React from 'react';
 import { useState } from "react";
 import Header from "./components/Header";
 import "./App.css";
 import Banner from "./components/Banner";
-import About from "./components/About";
 import Services from "./components/Services";
-import Feedback from "./components/Feedback";
+import About from "./components/About";
+import Reviews from "./components/Reviews";
 import Expertise from "./components/Expertise";
-import ChatBot from 'react-simple-chatbot';
+import Contact from "./components/Contact"
 import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function App() {
-  const [count, setCount] = useState(0);
+  
+  React.useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 700,
+      easing: "ease-in",
+      delay: 100,
+    });
+    AOS.refresh();
+  });
 
   return (
     <>
       <Header />
-      <Banner />
-      <About />
-      <Services />
-      <Feedback/>
-      <Expertise />
-      <ChatBot
-        steps={[
-          {
-            id: '1',
-            message: 'Hello Sir/Maam This is my address',
-            trigger: '2',
-          },
-          {
-            id: '2',
-            options: [
-              { value: 2, label: 'Gwalior', trigger: '5' },
-            ],
-          },
-          {
-            id: '5',
-            message: 'Nai Sadak, kailash Talkies, Lashkar, Gwalior(district of M.P.)',
-            trigger: '2',
-          },
-        ]}
-        floating={true}/>
+      <div id="home">
+        <Banner />
+      </div>
+      <div id="services">
+        <Services />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="reviews">
+        <Reviews />
+      </div>
+      <div id="expertise">
+        <Expertise />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/map" element={<Contact />}/>
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </>
   );
 }
 
-export default App;
+export default App; 
+
