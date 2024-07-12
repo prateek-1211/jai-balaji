@@ -42,11 +42,11 @@ const Banner = () => {
             <a href="https://www.facebook.com/gorav.mishra" className="hover:bg-orange-600 border cursor-pointer px-3 py-4 w-14 h-14 md:w-16 md:h-16 rounded-full flex justify-center items-center bg-gray-800">
               <i className="fa-brands text-3xl md:text-4xl fa-facebook"></i>
             </a>
-            <a href="https://www.instagram.com/gorav.mishra" className="hover:bg-orange-600 border cursor-pointer px-3 py-4 w-14 h-14 md:w-16 md:h-16 rounded-full flex justify-center items-center bg-gray-800">
+            <a href="https://www.instagram.com/sharmaprateek18/?igsh=MTFic2tvNnVzZ3Q2bw%3D%3D" className="hover:bg-orange-600 border cursor-pointer px-3 py-4 w-14 h-14 md:w-16 md:h-16 rounded-full flex justify-center items-center bg-gray-800">
               <i className="fa-brands text-3xl md:text-4xl fa-instagram"></i>
             </a>
           </div>
-          <a href="https://www.facebook.com/gorav.mishra" className="text-xl md:text-2xl px-3 py-2 bg-orange-500 rounded-full shadow-lg mt-5 inline-block">
+          <a href="https://www.instagram.com/sharmaprateek18/?igsh=MTFic2tvNnVzZ3Q2bw%3D%3D" className="text-xl md:text-2xl px-3 py-2 bg-orange-500 rounded-full shadow-lg mt-5 inline-block">
             Contact Me
           </a>
         </div>
