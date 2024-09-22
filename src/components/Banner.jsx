@@ -39,14 +39,14 @@ const Banner = () => {
             & I am <span className="font-bold underline" ref={el}></span>
           </h2>
           <div className="icons-container flex space-x-5 mt-5">
-            <a href="https://www.facebook.com/gorav.mishra" className="hover:bg-orange-600 border cursor-pointer px-3 py-4 w-14 h-14 md:w-16 md:h-16 rounded-full flex justify-center items-center bg-gray-800">
+            <a href="https://www.facebook.com/profile.php?id=100075630856373&sk=about" className="hover:bg-orange-600 border cursor-pointer px-3 py-4 w-14 h-14 md:w-16 md:h-16 rounded-full flex justify-center items-center bg-gray-800">
               <i className="fa-brands text-3xl md:text-4xl fa-facebook"></i>
             </a>
             <a href="https://www.instagram.com/sharmaprateek18/?igsh=MTFic2tvNnVzZ3Q2bw%3D%3D" className="hover:bg-orange-600 border cursor-pointer px-3 py-4 w-14 h-14 md:w-16 md:h-16 rounded-full flex justify-center items-center bg-gray-800">
               <i className="fa-brands text-3xl md:text-4xl fa-instagram"></i>
             </a>
           </div>
-          <a href="https://www.instagram.com/sharmaprateek18/?igsh=MTFic2tvNnVzZ3Q2bw%3D%3D" className="text-xl md:text-2xl px-3 py-2 bg-orange-500 rounded-full shadow-lg mt-5 inline-block">
+          <a href="https://www.linkedin.com/in/sharmaprateek38/" className="text-xl md:text-2xl px-3 py-2 bg-orange-500 rounded-full shadow-lg mt-5 inline-block">
             Contact Me
           </a>
         </div>
